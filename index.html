@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She beauty</title>
+    <!--  -->
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="css file/main-style.css">
+    <link rel="stylesheet" href="css file/style-switcher.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <!-- main button -->
+    <div class="main-button">
+    <div class="go-top">
+      <button onclick="topFunction()" id="goTop" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+    <div class="whatsapp">
+      <a href="tel:+49 1578 3442425‎"><i class="fa-brands fa-whatsapp"></i></a>
+      
+    </div>
+    <div class="cart"id="cart">
+      <h2 >cart</h2>
+      <div class="checkout">
+        <div>0</div>
+        <div onclick="closeCart()"  type="button">close</div>
+      </div>
+    </div> 
+    <div id="logIn" class="logIn ">
+      <div class="close" onclick="closeLogIn()"><i class="fa-solid fa-x"></i></div>
+      <div class='welcome'>Hello There!</div>
+      <div class='input-fields'>
+        <input type='text' placeholder='Username' class='input-line '></input>
+        <input type='email' placeholder='Email' class='input-line '></input>
+        <input type='password' placeholder='Password' class='input-line '></input>
+      </div>
+      <div class="btn-fields">
+      <button type="submit"> log in</button>
+      
+      </div>
+    </div>
+  </div>
+
+    </div>
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="top-header"><h3>welcome in she beauty store</h3></div>
+                <div class="nav-bar">
+                    <div class="top-nav">
+                    <div><i class="fa-solid fa-bars toggle-menu" id="toggleMenu" ></i>   </div>
+                    <div class="search"><a title="search" href="#store-pg" ><i class="fa-solid fa-magnifying-glass"></i></a>                    </div>
+                    <div class="logo"><img src="/img/0033958e-fc3a-4f1e-bb83-c021cfd27e80.jpeg" alt="" srcset="">             </div>
+                    <div class="login" onclick="showLogIn()"><i class="fa-solid fa-right-to-bracket"></i>                     </div>
+                    <div class="shopping" onclick="showCart()"><i class="fa-solid fa-bag-shopping" ></i>  <span class>1</span></div>
+                    </div>
+                 <ul id="navBar">
+                    <li><a class="home  nav-link " id="navLink" href="#home-pg " id="Home" >home</a>                      </li>
+                    <li><a class="store nav-link" id="navLink" href="#store-pg" id="Store" >store</a>                         </li>
+                    <li><a class="collections nav-link" id="navLink" href="#collections-pg" id="Collections" onclick="close()">collections</a> </li>
+                    <li class="close"><a class="nav-link fa-solid fa-x"></a></li>
+                 </ul>
+                </div>
+            </div>
+        </div>
+       
+    </header>
+
+    <!-- header end -->
+    <!-- home start  -->
+    <section class="home-pg " id="home-pg">
+        <div class="container">
+            <div class="row">
+                <div class="main-img"></div>
+                <div class="main-card">
+                    <h2>original products</h2>
+                    <p>Real skin has texture, pores, and even the occasional blemish. The goal is healthy skin not perfect skin.</p>
+                    <button  type="button"><a href="#store-pg">shop now</a> </button>
+                </div>
+            </div>
+
+          <h2 class="section-title">featured products</h2>  
+            
+          <div class="home-content content">
+
+            
+                <!-- Card 1 start -->
+                <div class="card card-1">
+                  <!-- card-header -->
+                  <div class="card-header">
+                    <img alt="" src="img/366734156_118745484644616_8614564832746396219_n.jpg"
+                     class="card-img" />
+                  </div>
+                  <!-- card-header -->
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <h3 class="card-local"> Eye roll on</h3>
+                   
+                    <p class="card-text">
+                     LE  200.00 EGP
+                    </p>
+                  </div>
+                  <!-- card-body -->
+          
+                 
+                </div>
+                <!-- Card 1 end-->
+          
+                <!-- Card 2 start-->
+                <div class="card card-2">
+                  <!-- card-header -->
+                  <div class="card-header">
+                    <img alt="" src="img/392702e0-e5a2-47e0-9f86-78f5947d1d5f.jpeg" 
+                    class="card-img" />
+                  </div>
+                  <!-- card-header -->
+          
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <h3 class="card-local"> beauty of joseon radiance cleansing balm 100 ml</h3>
+                   
+                    <p class="card-text">
+                     LE  600.00 EGP
+                    </p>
+                  </div>
+                  <!-- card-body -->
+          
+                 
+                </div>
+                <!-- Card 2 end -->
+          
+                <!-- Card 3 start-->
+                <div class="card card-3">
+                  <!-- card-header -->
+                  <div class="card-header">
+                    <img alt="" src="img/419b777b-466d-40e0-b02d-942980fe149d.jpeg"
+                     class="card-img" />
+                  </div>
+                  <!-- card-header -->
+          
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <h3 class="card-local"> langhaar madchen hair oil intense repair</h3>
+                   
+                    <p class="card-text">
+                     LE  400.00 EGP
+                    </p>
+                  </div>
+                  <!-- card-body -->
+          
+                  
+                </div>
+                <!-- Card 3 end -->
+
+                 <!-- Card 4 start-->
+                 <div class="card card-4">
+                    <!-- card-header -->
+                    <div class="card-header">
+                      <img alt="" src="img/366995640_118730154646149_3485127717328382648_n.jpg" 
+                      class="card-img" />
+                    </div>
+                    <!-- card-header -->
+            
+                    <!-- card-body -->
+                    <div class="card-body">
+                        <h3 class="card-local">Pro-Kollagen-Filler 15 ml</h3>
+                   
+                        <p class="card-text">
+                         LE  450.00 EGP
+                        </p>
+                    </div>
+                    <!-- card-body -->
+            
+                   
+                 </div>
+                  <!-- Card 4 end -->
+
+              </div>
+
+        </div>
+    </section>
+    <!-- home end -->
+    <!-- store start -->
+    <section class="store-pg" id="store-pg">
+        <div class="container">
+            <h2 class="section-title">products</h2>
+            <div class="row">
+                <div class="main-filter">
+                <h3>filter:</h3>
+                <form class="filter">
+                   
+                    
+                    <div class="item">
+                        <label for="">min price</label>
+                        <input type="number" name="minPrice" id="" placeholder="00">
+
+                    </div>
+                    <div class="item">
+                        <label for="maxPrice">max price</label>
+                        <input type="number" name="maxPrice" placeholder="00">
+
+                    </div>
+                    <div id="search" class="item">
+                        <label for="">name</label>
+                        <input type="text" name="name" placeholder="what do you need">
+                    </div>
+                    <div class="item supmit">
+                        <button type="submit">search</button>
+                    </div>
+                    <div class="countResults item">found <span id="count"></span> results <span id="result"></span></div>
+                    
+                </form> 
+                </div>
+                <div class="content " id="list">
+                  <!-- card by filter.js  file -->
+                </div> 
+                
+            </div>
+
+        </div>
+    </section>
+    <!-- store end -->
+    <!-- collection start -->
+    <section class="collection-pg " id="collections-pg">
+        <div class="container">
+            <h2 class="section-title">collections</h2>
+            <div class="row">
+                
+                <div class="content">
+                    <!-- Card 1 start -->
+                    <div class="card-collection card-1">
+                      <!-- card-header -->
+                      <div class="card-header">
+                        <img alt="" src="img/unnamed.webp"
+                         class="card-img" />
+                      </div>
+                      <!-- card-header -->
+              
+                      <!-- card-body -->
+                      <div class="card-body">
+                       
+                        <p class="card-text">
+                        unnamed
+                        <i class="fa-solid fa-arrow-right "></i>
+                        </p>
+                        
+                      </div>
+                      <!-- card-body -->
+              
+                     
+                    </div>
+                    <!-- Card 1 end-->
+              
+                    <!-- Card 2 start-->
+                    <div class="card-collection card-2">
+                      <!-- card-header -->
+                      <div class="card-header">
+                        <img alt="" src="img/farmstay_logo.webp" 
+                        class="card-img" />
+                      </div>
+                      <!-- card-header -->
+              
+                      <!-- card-body -->
+                      <div class="card-body">
+                       
+                        <p class="card-text">
+                        farmstay
+                        <i class="fa-solid fa-arrow-right "></i>
+                        </p>
+                        
+                      </div>
+                      <!-- card-body -->
+              
+                     
+                    </div>
+                    <!-- Card 2 end -->
+              
+                    <!-- Card 3 start-->
+                    <div class="card-collection card-3">
+                      <!-- card-header -->
+                      <div class="card-header">
+                        <img alt="" src="img/beesline.webp"
+                         class="card-img" />
+                      </div>
+                      <!-- card-header -->
+              
+                      <!-- card-body -->
+                      <div class="card-body">
+
+                        <p class="card-text">
+                        beesline
+                        <i class="fa-solid fa-arrow-right "></i>
+                        </p>
+                        
+                      </div>
+                      <!-- card-body -->
+              
+                      
+                    </div>
+                    <!-- Card 3 end -->
+                </div>  
+                <div class="content">
+                  <!-- Card 1 start -->
+                  <div class="card-collection card-1">
+                    <!-- card-header -->
+                    <div class="card-header">
+                      <img alt="" src="img/f7ea4953646cf8a219721b671af39e34c357f98a--md-noborder.webp"
+                       class="card-img" />
+                    </div>
+                    <!-- card-header -->
+            
+                    <!-- card-body -->
+                    <div class="card-body">
+                     
+                      <p class="card-text">
+                        mavala
+                      <i class="fa-solid fa-arrow-right "></i>
+                      </p>
+                      
+                    </div>
+                    <!-- card-body -->
+            
+                   
+                  </div>
+                  <!-- Card 1 end-->
+            
+                  <!-- Card 2 start-->
+                  <div class="card-collection card-2">
+                    <!-- card-header -->
+                    <div class="card-header">
+                      <img alt="" src="img/logo.webp" 
+                      class="card-img" />
+                    </div>
+                    <!-- card-header -->
+            
+                    <!-- card-body -->
+                    <div class="card-body">
+                     
+                      <p class="card-text">
+                        the Ordinary
+                      <i class="fa-solid fa-arrow-right "></i>
+                      </p>
+                      
+                    </div>
+                    <!-- card-body -->
+            
+                   
+                  </div>
+                  <!-- Card 2 end -->
+            
+                  <!-- Card 3 start-->
+                  <div class="card-collection card-3">
+                    <!-- card-header -->
+                    <div class="card-header">
+                      <img alt="" src="img/vaseline_logo_sq.webp"
+                       class="card-img" />
+                    </div>
+                    <!-- card-header -->
+            
+                    <!-- card-body -->
+                    <div class="card-body">
+
+                      <p class="card-text">
+                        vaseline
+                      <i class="fa-solid fa-arrow-right "></i>
+                      </p>
+                      
+                    </div>
+                    <!-- card-body -->
+            
+                    
+                  </div>
+                  <!-- Card 3 end -->
+              </div> 
+              <div class="content">
+                <!-- Card 1 start -->
+                <div class="card-collection card-1">
+                  <!-- card-header -->
+                  <div class="card-header">
+                    <img alt="" src="img/4e96031f-26da-4426-b670-11302be0bcd9.jpeg"
+                     class="card-img" />
+                  </div>
+                  <!-- card-header -->
+          
+                  <!-- card-body -->
+                  <div class="card-body">
+                   
+                    <p class="card-text">
+                      nivea
+                    <i class="fa-solid fa-arrow-right "></i>
+                    </p>
+                    
+                  </div>
+                  <!-- card-body -->
+          
+                 
+                </div>
+                <!-- Card 1 end-->
+          
+                <!-- Card 2 start-->
+                <div class="card-collection card-2">
+                  <!-- card-header -->
+                  <div class="card-header">
+                    <img alt="" src="img/1d6891e831a2970b37a326988de12387.webp" 
+                    class="card-img" />
+                  </div>
+                  <!-- card-header -->
+          
+                  <!-- card-body -->
+                  <div class="card-body">
+                   
+                    <p class="card-text">
+                      soap and glory
+                    <i class="fa-solid fa-arrow-right "></i>
+                    </p>
+                    
+                  </div>
+                  <!-- card-body -->
+          
+                 
+                </div>
+                <!-- Card 2 end -->
+          
+                <!-- Card 3 start-->
+                <div class="card-collection card-3">
+                  <!-- card-header -->
+                  <div class="card-header">
+                    <img alt="" src="img/download.png"
+                     class="card-img" />
+                  </div>
+                  <!-- card-header -->
+          
+                  <!-- card-body -->
+                  <div class="card-body">
+
+                    <p class="card-text">
+                      kesh king
+                    <i class="fa-solid fa-arrow-right "></i>
+                    </p>
+                    
+                  </div>
+                  <!-- card-body -->
+          
+                  
+                </div>
+                <!-- Card 3 end -->
+            </div> 
+                
+            </div>
+        </div>
+    </section>
+    <!-- collection end -->
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+            <h1>subscribe to our emails</h1>
+            <h4>join our email list for exclusive offers and the latest news.</h4>
+            
+            <div class="input-email"><input type="email" placeholder="email"> <i class="fa-solid fa-arrow-right "></i></div>
+            <div class="icone">
+              <a href="https://www.facebook.com/profile.php?id=100095274939798&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"> </i></a>
+               <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fs.h.eboutique%3Ffbclid%3DIwAR3UKtSo8gQhaiPn3_yTroMrPXmwmJrpZ7SXkzRabVcs5nLpMLjPO4ptsYw&h=AT1j-2E8g1bZ9oO3Isj-JL50HFncUzUm0B--4H7KIg3lR1KwwvRnaMe4v8yzE1GWuQAIYgfFz9Org_c9DWe76oaMr_Cs7uCSB9eauKOavPUvdFONbT7MJD85bcq2wSJBpu1k"> <i class="fa-brands fa-instagram"></i></a>
+               
+            </div>
+            </div>
+            <div class="copyright"><h6>© 2023, She Beauty</h6></div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- script file -->
+    <script src="/js file/script.js"></script>
+    <script src="js file/products.js"></script>
+</body>
+</html>
